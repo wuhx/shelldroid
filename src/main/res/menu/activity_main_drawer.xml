@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Source Code">
+        <menu>
+            <item
+                    android:id="@+id/nav_github"
+                    android:icon="@drawable/github"
+                    android:title="github.com/wuhx/shelldroid" />
+            <item
+                    android:id="@+id/nav_mail"
+                    android:icon="@android:drawable/ic_dialog_email"
+                    android:title="Issues or Suggestions" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,42 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="im.xun.shelldroid"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-sdk
+        android:minSdkVersion="23"
+        android:targetSdkVersion="23"/>
+
+    <application
+        android:name="im.xun.shelldroid.App"
+        android:label="shelldroid"
+        android:theme="@style/AppTheme"
+        android:icon="@drawable/app_icon">
+
+        <meta-data
+                android:name="xposedmodule"
+                android:value="true" />
+        <meta-data
+                android:name="xposeddescription"
+                android:value="ShellDroid: Virtual environment for Apps" />
+        <meta-data
+                android:name="xposedminversion"
+                android:value="30" />
+
+        <activity
+          android:label="ShellDroid"
+          android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+                android:name=".NewActivity"
+                android:label="Create new Virtual Environment" >
+        </activity>
+
+
+    </application>
+</manifest>

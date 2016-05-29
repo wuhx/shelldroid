@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#ff4081</color>
+
+    <color name="warn_red">#f10052</color>
+
+    <color name="text_dark">#333333</color>
+    <color name="text_medium">#555555</color>
+    <color name="text_light">#888888</color>
+
+    <color name="sa_green">#1E9618</color>
+    <color name="sa_green_transparent">#801E9618</color>
+    <color name="sa_green_dark">#146310</color>
+</resources>

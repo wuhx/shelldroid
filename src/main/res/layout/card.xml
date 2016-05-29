@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal"
+                                    android:clickable="true"
+                                    android:layout_margin="5dp"
+                                    card_view:cardCornerRadius="5dp">
+
+    <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+    >
+    <RelativeLayout
+            android:id="@+id/img_lay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp" >
+
+        <ImageView
+                android:id="@+id/icon"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/app_icon"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+            android:layout_toRightOf="@+id/img_lay"
+            android:id="@+id/user_list_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:minHeight="?android:attr/listPreferredItemHeight"
+            android:paddingRight="?android:attr/scrollbarSize" >
+
+        <TextView
+                android:id="@+id/envName"
+                android:text="This is the title!"
+                android:ellipsize="marquee"
+                android:fadingEdge="horizontal"
+                android:singleLine="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin"
+                android:hint="Virtual Environment Name"
+                android:textColor="@color/text_dark"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        />
+
+        <TextView
+                android:id="@+id/imei"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/envName"
+                android:layout_below="@+id/envName"
+                android:ellipsize="marquee"
+                android:fadingEdge="horizontal"
+
+                android:text="summary text should be very long!"
+                android:textColor="@color/text_medium"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <TextView
+                android:id="@+id/appName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/envName"
+                android:layout_below="@+id/imei"
+                android:layout_marginBottom="@dimen/margin"
+                android:textColor="@color/text_light"
+                android:gravity="end"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        <Button
+                android:id="@+id/my_button"
+                android:textAllCaps="false"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:focusable="true"
+                android:text="Start" />
+
+    </RelativeLayout>
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ShellDroid</string>
+    <string name="title_activity_test">TestActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Setting</string>
+    <string name="title_activity_env">Create new Virtual Environment</string>
+
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+
+
+</resources>
