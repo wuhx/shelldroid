@@ -18,7 +18,7 @@ Any issues, fork, pull requests will be welcome.
 
 ### Screencast
 
-[ScreenCast](screencast/record.mp4?raw=true)
+Download [Video ScreenCast](screencast/record.mp4?raw=true)
 
 
 ![ScreenCast](screencast/main.png)
