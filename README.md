@@ -27,7 +27,7 @@ Download [Video ScreenCast](screencast/record.mp4?raw=true)
 
 ### How to build
 
-install Android SDK(default version is 24.4.1),  or change the build.sbt to match your SDK version. Then run:
+Install Android SDK(default version 24.4.1),  or change the build.sbt to match your SDK version. Then run:
 
 `sbt apk`
 
@@ -37,10 +37,10 @@ a prebuilt version can be download [here](target/android/output/shelldroid-debug
 
 1. your device need to be rooted.
 2. Xposed framework need to be installed.
-3. seLinux will be disabled after ShellDroid get running.
-4. Only test on Nexus 5X, Android 6.0. Use at your own risk.
+3. SeLinux will be disabled after ShellDroid get running.
+4. Only test on Nexus 5X with Android 6.0. Use at your own risk.
 
 
-More Detailed info:
+More detailed info:
 [http://xun.im/2016/05/30/shelldroid-a-virtual-environments-for-android-apps/](http://xun.im/2016/05/30/shelldroid-a-virtual-environments-for-android-apps/)
 
