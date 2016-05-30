@@ -60,6 +60,18 @@ object EnvManager {
 
   }
 
+  val ensureSelinuxPermissive = {
+    d("ensureSelinuxPermissive")
+    try {
+      val proc = Runtime.getRuntime.exec("su -c setenforce 0")
+      proc.waitFor()
+
+    } catch  {
+      case _: Throwable =>
+        e("Fail to disable selinux")
+    }
+  }
+
   def doRoot(cmd: String) = {
     d("doRoot: "+cmd)
     try {
