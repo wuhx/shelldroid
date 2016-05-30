@@ -39,3 +39,8 @@ a prebuilt version can be download [here](target/android/output/shelldroid-debug
 2. Xposed framework need to be installed.
 3. seLinux will be disabled after ShellDroid get running.
 4. Only test on Nexus 5X, Android 6.0. Use at your own risk.
+
+
+More Detailed info:
+[http://xun.im/2016/05/30/shelldroid-a-virtual-environments-for-android-apps/](http://xun.im/2016/05/30/shelldroid-a-virtual-environments-for-android-apps/)
+
