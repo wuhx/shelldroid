@@ -4,7 +4,7 @@ ShellDroid is an Android App that help you to manage multi account of any App on
 
 The mechanism behind ShellDroid is very simple: Every App on Android has a data folder, when you use that App( login or change some setting) all those information are saved in that folder, ShellDroid manage App's account by manage App's application data. which is simply backup and restore data folder. And that's why it need root privilege.
 
-Some Apps(like Wechat) will try to binding your account with your devices. Those Apps usually use your device's IMEI,phone number, or phone model to identify you. Thanks to Xposed, ShellDroid can fake those information to make a "portable" application data.
+Some Apps(like Wechat) will try to bind your account with your devices. Those Apps usually use your device's IMEI,phone number, or phone model to identify you. Thanks to [Xposed](http://repo.xposed.info/), ShellDroid can fake those information to make a "portable" application data.
 
 To demonstrate that, I create an [App](https://github.com/wuhx/phoneinfo) which simply call some Android API to identify your devices.  If run it directly, It will display your devices's IMEI, phone model, phone brand etc.(assume  you are not using any other privacy protection Apps of cause)
 
@@ -27,9 +27,9 @@ Download [Video ScreenCast](screencast/record.mp4?raw=true)
 
 ### How to build
 
-install android sdk(default is 24.4.1),  or change the build.sbt to match you sdk version.
+install Android SDK(default version is 24.4.1),  or change the build.sbt to match your SDK version. Then run:
 
-`sbt dev`
+`sbt apk`
 
 a prebuilt version can be download [here](target/android/output/shelldroid-debug.apk?raw=true)
 

@@ -21,7 +21,7 @@ cleanResourceTask := {
 
 run <<= run in Android
 
-addCommandAlias("dev", ";cleanResource;run")
+addCommandAlias("apk", ";cleanResource;run")
 
 
 javacOptions ++= Seq("-source", "1.7", "-target", "1.7")
