@@ -40,7 +40,12 @@ A prebuilt version can be download [here](target/android/output/shelldroid-debug
 3. SeLinux will be disabled after ShellDroid get running.
 4. Only test on Nexus 5X with Android 6.0. Use at your own risk.
 
+### More  info:
 
-More detailed info:
 [http://xun.im/2016/05/30/shelldroid-a-virtual-environments-for-android-apps/](http://xun.im/2016/05/30/shelldroid-a-virtual-environments-for-android-apps/)
+
+[http://xun.im/2016/05/30/shelldroid-on-nexus5x/](http://xun.im/2016/05/30/shelldroid-on-nexus5x/)
+
+[http://xun.im/2016/05/30/understand-android-rooting/](http://xun.im/2016/05/30/understand-android-rooting/)
+
 
